@@ -21,18 +21,48 @@
 
 </head>
 <body>
-	<nav>
-		<div>
-			<a href="#">Profile</a>
-			<button>Submit</button>
-			<div>
-				<div>
-					<a href="#">About Me</a>
-					<a href="#">Skills</a>
+	<nav class="navbar-expand-lg navbar navbar-light bg-light">
+		<div class="container-fluid">
+			<a class="navbar-brand" href="#">Profile</a>
+			<button class="navbar-toggler" type="button" data-bs-toggle="collapes" data-bs-target="#navbarNavAltMarkup">
+				<span class="navbar-toggler-icon">
+					
+				</span>
+			</button>
+			<div class="collapes navbar-collapse" id="#navbarNavAltMarkup">
+				<div class="navbar-nav">
+
+					<a class="nav-link active" href="#">About Me</a>
+					<a class ="nav-link" href="#">Skills</a>
 				</div>
 			</div>
 		</div>
 	</nav>
+
+	<!-- Bootstrap has classes to determine/change the color of text -->
+	<h1 class="text-center">Bootstrap Introduction</h1>
+	<h2 class="text-center">Classes of Text</h2>
+	<p class="bg-primary text-white">Primary</p>
+	<p class="bg-warning text-secondary">Secondary</p>
+	<p class="bg-info text-success">Success</p>
+
+
+	<div class="mt-5 p-3 bg-warning">
+		Bootstrap has its own responsive paddings and margins Wherein its classes, m stands for margin
+		 p stands padding 
+	</div>
+	<div class="my-5 px-4 bg-primary text-white">
+		Bootstrap Padding and Margins can be applies on sides
+		<ul>
+			<li>t - sets either margin or padding at the top of our element: mt or pt</li>
+			<li>b - set either margin or padding at the bottom side of our element: mb or pb</li>
+			<li>y - sets either marging or padding on y-axis, on both top and bottom : my or py</li>
+			<li>x - sets either margin or padding on the x-axis, both left and right sides : mx or px</li>
+			<li>l - sets either margin or padding on the left side: ml or pl</li>
+			<li>r - sets either margin or padding on the right side: mr or pr</li>
+			<li></li>
+		</ul>
+	</div>
 	<h1></h1>
 	<!-- Bootstrap js popper -->
 	<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
